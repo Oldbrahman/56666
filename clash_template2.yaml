@@ -23,8 +23,8 @@ proxies:
     udp: true
   - name: "AWS-KR-NNR-SS"
     type: ss
-    server: 183.195.235.47
-    port: 45000
+    server: 139.227.219.199
+    port: 17650
     cipher: aes-128-gcm
     password: "n064659"
     udp: true
