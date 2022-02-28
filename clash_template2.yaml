@@ -7,8 +7,8 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: "AWS-KR-NNR"
     type: socks5
-    server: 183.195.235.47
-    port: 25137
+    server: shcu.forgebukkit.com
+    port: 35800
     username: admin
     password: n065946
     skip-cert-verify: true
