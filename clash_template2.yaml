@@ -16,7 +16,7 @@ proxies:
   - name: "AWS-KR"
     type: socks5
     server: 54.180.3.84
-    port: 46596
+    port: 57805
     username: admin
     password: n065946
     skip-cert-verify: true
