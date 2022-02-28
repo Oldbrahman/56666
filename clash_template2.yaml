@@ -15,7 +15,7 @@ proxies:
     udp: true
   - name: "AWS-KR"
     type: socks5
-    server: 3.38.4.90
+    server: 54.180.3.84
     port: 46596
     username: admin
     password: n065946
@@ -30,7 +30,7 @@ proxies:
     udp: true
   - name: "AWS-KR-SS"
     type: ss
-    server: 3.38.4.90
+    server: 54.180.3.84
     port: 48500
     cipher: aes-128-gcm
     password: "n064659"
