@@ -16,7 +16,7 @@ proxies:
   - name: "AWS-KR"
     type: socks5
     server: 3.38.4.90
-    port: 40050
+    port: 46596
     username: admin
     password: n065946
     skip-cert-verify: true
@@ -31,7 +31,7 @@ proxies:
   - name: "AWS-KR-SS"
     type: ss
     server: 3.38.4.90
-    port: 58888
+    port: 38299
     cipher: aes-128-gcm
     password: "n064659"
     udp: true
