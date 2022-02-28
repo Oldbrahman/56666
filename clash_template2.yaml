@@ -35,6 +35,13 @@ proxies:
     cipher: aes-128-gcm
     password: "n064659"
     udp: true
+  - name: "watermelon"
+    type: socks5
+    server: 183.232.230.44
+    port: 30237
+    username: TkYn0DLz8B
+    password: "8BGF4Oz02M"
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -45,6 +52,7 @@ proxy-groups:
       - AWS-KR
       - AWS-KR-NNR-SS
       - AWS-KR-SS
+      - watermelon
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -64,6 +72,7 @@ proxy-groups:
       - AWS-KR
       - AWS-KR-NNR-SS
       - AWS-KR-SS
+      - watermelon
   - name: 📲 电报信息
     type: select
     proxies:
@@ -82,6 +91,7 @@ proxy-groups:
       - AWS-KR
       - AWS-KR-NNR-SS
       - AWS-KR-SS
+      - watermelon
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -91,6 +101,7 @@ proxy-groups:
       - AWS-KR
       - AWS-KR-NNR-SS
       - AWS-KR-SS
+      - watermelon
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -101,6 +112,7 @@ proxy-groups:
       - AWS-KR
       - AWS-KR-NNR-SS
       - AWS-KR-SS
+      - watermelon
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,6 +129,7 @@ proxy-groups:
       - AWS-KR
       - AWS-KR-NNR-SS
       - AWS-KR-SS
+      - watermelon
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
