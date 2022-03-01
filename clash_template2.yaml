@@ -7,8 +7,8 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: "AWS-KR-NNR"
     type: socks5
-    server: shcu.forgebukkit.com
-    port: 35800
+    server: 183.195.235.47
+    port: 25207
     username: admin
     password: n065946
     skip-cert-verify: true
@@ -23,8 +23,8 @@ proxies:
     udp: true
   - name: "AWS-KR-NNR-SS"
     type: ss
-    server: 139.227.219.199
-    port: 17650
+    server: 183.195.235.47
+    port: 25208
     cipher: aes-128-gcm
     password: "n064659"
     udp: true
