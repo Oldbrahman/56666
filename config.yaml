@@ -1,3 +1,4 @@
+proxies:
   - name: "AWS-KR-NNR"
     type: socks5
     server: 117.185.229.112
