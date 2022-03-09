@@ -1,3 +1,4 @@
+external-controller: 127.0.0.1:9090
 proxies:
   - name: "AWS-KR-NNR"
     type: socks5
