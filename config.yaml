@@ -15,14 +15,6 @@ dns:
     - 114.114.114.114
     - 223.5.5.5
 proxies:
-  - name: "AWS-KR-NNR"
-    type: socks5
-    server: 117.185.229.112
-    port: 25207
-    username: admin
-    password: n065946
-    skip-cert-verify: true
-    udp: true
   - name: "AWS-KR"
     type: socks5
     server: 15.164.151.99
@@ -30,14 +22,6 @@ proxies:
     username: admin
     password: n065946
     skip-cert-verify: true
-    udp: true
-  - name: "AWS-KR-NNR-SS"
-    type: ss
-    server: 117.185.229.112
-    port: 25208
-    cipher: dummy
-    password: "n064659"
-    fast_open": true
     udp: true
   - name: "AWS-KR-SS"
     type: ss
