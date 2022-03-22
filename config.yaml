@@ -58,5 +58,5 @@ proxies:
     server: 15.164.151.99
     port: 36958
     cipher: aes-128-gcm
-    password: "n064659"
+    password: "gmfaHUCUdM"
     udp: true
