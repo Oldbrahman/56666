@@ -45,6 +45,7 @@ proxies:
     port: 35827
     cipher: dummy
     password: "n064659"
+    fast_open": true
     udp: true
   - name: "Azure-HK"
     type: socks5
