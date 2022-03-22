@@ -23,6 +23,14 @@ proxies:
     password: "n064659.n065946"
     fast_open: true
     udp: true
+  - name: "NNR-KR"
+    type: ss
+    server: 117.185.229.112
+    port: 25208
+    cipher: dummy
+    password: "n064659.n065946"
+    fast_open: true
+    udp: true
   - name: "Azure-HK"
     type: socks5
     server: 183.232.230.44
