@@ -15,14 +15,6 @@ dns:
     - 114.114.114.114
     - 223.5.5.5
 proxies:
-  - name: "AWS-KR"
-    type: socks5
-    server: 15.164.151.99
-    port: 57805
-    username: admin
-    password: n065946
-    skip-cert-verify: true
-    udp: true
   - name: "AWS-KR-SS"
     type: ss
     server: 15.164.151.99
