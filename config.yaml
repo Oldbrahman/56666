@@ -54,10 +54,3 @@ proxies:
     username: TkYn0DLz8B
     password: "8BGF4Oz02M"
     udp: true
-  - name: "AEAD"
-    type: ss
-    server: 15.164.151.99
-    port: 36958
-    cipher: aes-128-gcm
-    password: "gmfaHUCUdM"
-    udp: true
