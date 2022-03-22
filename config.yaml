@@ -20,7 +20,7 @@ proxies:
     server: 15.164.151.99
     port: 35827
     cipher: dummy
-    password: "n064659"
+    password: "n064659.n065946"
     fast_open: true
     udp: true
   - name: "Azure-HK"
