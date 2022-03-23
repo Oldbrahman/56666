@@ -18,7 +18,7 @@ proxies:
   - name: "AWS-KR-SS"
     type: ss
     server: 15.164.151.99
-    port: 35827
+    port: 18975
     cipher: dummy
     password: "n064659.n065946"
     fast_open: true
