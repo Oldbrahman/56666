@@ -31,6 +31,13 @@ proxies:
     password: "n064659.n065946"
     fast_open: true
     udp: true
+  - name: "AWS-KR-SS"
+    type: ss
+    server: 15.164.151.99
+    port: 36958
+    cipher: aes-128-gcm
+    password: "gmfaHUCUdM"
+    udp: true
   - name: "Azure-HK"
     type: socks5
     server: 183.232.230.44
