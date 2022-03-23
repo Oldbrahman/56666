@@ -15,18 +15,10 @@ dns:
     - 114.114.114.114
     - 223.5.5.5
 proxies:
-  - name: "AWS-KR-SS"
+  - name: "AWS-KR"
     type: ss
     server: 15.164.151.99
     port: 18975
-    cipher: dummy
-    password: "n064659.n065946"
-    fast_open: true
-    udp: true
-  - name: "NNR-KR"
-    type: ss
-    server: 117.185.229.112
-    port: 25208
     cipher: dummy
     password: "n064659.n065946"
     fast_open: true
