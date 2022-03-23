@@ -20,7 +20,7 @@ proxies:
     server: 15.164.151.99
     port: 18975
     cipher: dummy
-    password: "n064659.n065946"
+    password: "gMtwTTIWRy1i"
     fast_open: true
     udp: true
   - name: "AEAD-KR"
