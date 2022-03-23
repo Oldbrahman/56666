@@ -31,7 +31,7 @@ proxies:
     password: "n064659.n065946"
     fast_open: true
     udp: true
-  - name: "AWS-KR-SS"
+  - name: "AEAD-KR"
     type: ss
     server: 15.164.151.99
     port: 36958
