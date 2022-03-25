@@ -17,7 +17,7 @@ dns:
 proxies:
   - name: "AWS-KR"
     type: ss
-    server: 15.164.151.99
+    server: 15.164.31.40
     port: 18975
     cipher: dummy
     password: "gMtwTTIWRy1i"
@@ -33,7 +33,7 @@ proxies:
     udp: true
   - name: "AEAD-KR"
     type: ss
-    server: 15.164.151.99
+    server: 15.164.31.40
     port: 36958
     cipher: aes-128-gcm
     password: "gmfaHUCUdM"
