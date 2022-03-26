@@ -19,7 +19,7 @@ proxies:
     type: ss
     server: 15.165.149.28
     port: 18975
-    cipher: plain
+    cipher: dummy
     password: "gMtwTTIWRy1i"
     fast_open: true
     udp: true
