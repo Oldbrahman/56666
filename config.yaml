@@ -11,9 +11,8 @@ dns:
   ipv6: true
   enhanced-mode: fake-ip
   nameserver:
-    - 1.2.4.8
+    - 1.1.1.1
     - 114.114.114.114
-    - 223.5.5.5
 proxies:
   - name: "AWS-KR"
     type: ss
