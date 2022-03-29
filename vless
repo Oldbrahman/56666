@@ -2,12 +2,22 @@ port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
-log-level: info
+log-level: silent
 external-controller: 127.0.0.1:9090
+expreimental:
+  ignore-resolve-fail: ture
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - 1.1.1.1
+    - 114.114.114.114
 proxies:
   - name: "vless-tcp"
     type: vless
-    server: 13.209.29.62
-    port: 25718
-    uuid: 1d90821b-e13c-4e3b-bc6b-1a6eca5ffef1
+    server: 117.185.229.112
+    port: 25062
+    cipher: auto
+    uuid: 963baf00-2281-40fe-e041-3dbe66f29e89
     network: tcp
