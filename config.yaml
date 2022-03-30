@@ -33,7 +33,7 @@ proxies:
   - name: "AEAD-KR"
     type: ss
     server: 15.165.149.28
-    port: 15879
+    port: 36958
     cipher: aes-128-gcm
     password: "gmfaHUCUdM"
     udp: true
