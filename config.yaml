@@ -37,10 +37,3 @@ proxies:
     cipher: aes-128-gcm
     password: "gmfaHUCUdM"
     udp: true
-  - name: "Azure-HK"
-    type: socks5
-    server: 183.232.230.44
-    port: 30237
-    username: TkYn0DLz8B
-    password: "8BGF4Oz02M"
-    udp: true
