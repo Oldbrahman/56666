@@ -10,7 +10,6 @@ proxies:
     port: 10595
     cipher: dummy
     password: "n064659,n065946"
-    fast_open: true
     udp: true
   - name: "JP-v6"
     type: ss
