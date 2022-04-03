@@ -14,26 +14,11 @@ dns:
     - 1.1.1.1
     - 114.114.114.114
 proxies:
-  - name: "AWS-KR"
+  - name: "AWS-JP"
     type: ss
-    server: 15.165.149.28
-    port: 18975
+    server: 35.77.169.223
+    port: 10595
     cipher: dummy
-    password: "gMtwTTIWRy1i"
+    password: "n064659,n065946"
     fast_open: true
-    udp: true
-  - name: "NNR-KR"
-    type: ss
-    server: 117.185.229.112
-    port: 25208
-    cipher: dummy
-    password: "gMtwTTIWRy1i"
-    fast_open: true
-    udp: true
-  - name: "AEAD-KR"
-    type: ss
-    server: 15.165.149.28
-    port: 14444
-    cipher: aes-128-gcm
-    password: "gmfaHUCUdM"
     udp: true
