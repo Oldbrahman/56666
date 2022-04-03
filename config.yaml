@@ -14,9 +14,17 @@ dns:
     - 1.1.1.1
     - 114.114.114.114
 proxies:
-  - name: "AWS-JP"
+  - name: "JP-v4"
     type: ss
     server: 35.77.169.223
+    port: 10595
+    cipher: dummy
+    password: "n064659,n065946"
+    fast_open: true
+    udp: true
+  - name: "JP-v6"
+    type: ss
+    server: 2406:da14:c67:8302:32c8:f6b6:d851:1b04
     port: 10595
     cipher: dummy
     password: "n064659,n065946"
