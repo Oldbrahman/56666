@@ -7,7 +7,7 @@ log-level: silent
 proxies:
   - name: "JP-v4"
     type: ss
-    server: 35.76.246.195
+    server: 3.115.185.52
     port: 65535
     cipher: aes-128-gcm
     password: "n064659,n065946"
