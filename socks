@@ -1,11 +1,9 @@
 proxies:
 - name: "JP-v4"
-  type: socks
+  type: socks5
   server: 176.34.6.10
   port: 51193
-  udp: true
 - name: "JP-v6"
-  type: socks
+  type: socks5
   server: 2406:da14:c67:8302:c06b:d616:3865:8944
   port: 51193
-  udp: true
