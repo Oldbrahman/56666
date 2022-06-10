@@ -4,12 +4,12 @@ proxies:
   server: 176.34.6.10
   port: 40000
   cipher: 2022-blake3-aes-128-gcm
-  password: "gb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4="
+  password: "gb2YgYW55IGNhcm5"
   udp: true
 - name: "JP-v6"
   type: ss
   server: 2406:da14:c67:8302:c06b:d616:3865:8944
   port: 40000
   cipher: 2022-blake3-aes-128-gcm
-  password: "gb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4="
+  password: "gb2YgYW55IGNhcm5"
   udp: true
