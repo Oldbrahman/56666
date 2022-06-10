@@ -2,14 +2,14 @@ proxies:
 - name: "JP-v4"
   type: ss
   server: 176.34.6.10
-  port: 20000
+  port: 10000
   cipher: dummy
   password: "CWj38SrT8n4iKB4V2tT6tw=="
   udp: true
 - name: "JP-v6"
   type: ss
-  server: 2406:da14:c67:8301:6ca8:eb1e:839c:c6b2
-  port: 20000
+  server: 2406:da14:c67:8301:2d1c:6089:dce1:f45a
+  port: 10000
   cipher: dummy
   password: "CWj38SrT8n4iKB4V2tT6tw=="
   udp: true
