@@ -13,3 +13,10 @@ proxies:
   cipher: dummy
   password: "CWj38SrT8n4iKB4V2tT6tw=="
   udp: true
+- name: "JP-v4-V"
+  type: vless
+  server: 176.34.6.10
+  port: 42347
+  uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
+  network: tcp
+  skip-cert-verify: true
