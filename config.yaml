@@ -1,7 +1,7 @@
 proxies:
 - name: "JP-v4"
   type: ss
-  server: 18.178.81.218
+  server: 176.34.5.31
   port: 60000
   cipher: aes-128-gcm
   password: "n064659,n065946"
