@@ -1,7 +1,7 @@
 proxies:
 - name: "JP-v4"
   type: ss
-  server: 18.177.22.73
+  server: 18.176.67.206
   port: 10000
   cipher: 2022-blake3-aes-128-gcm
   password: "eFp1zdxpsnB9RJpsr/bLcg=="
@@ -15,7 +15,7 @@ proxies:
   udp: true
 - name: "JP-v4-V"
   type: vless
-  server: 18.177.22.73
+  server: 18.176.67.206
   port: 42347
   uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
   network: tcp
