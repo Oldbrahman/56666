@@ -2,14 +2,14 @@ proxies:
 - name: "JP-v4"
   type: ss
   server: 35.79.79.50
-  port: 60000
+  port: 38721
   cipher: aes-128-gcm
   password: "n064659,n065946"
   udp: true
 - name: "JP-v6"
   type: ss
   server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be
-  port: 60000
+  port: 38721
   cipher: aes-128-gcm
   password: "n064659,n065946"
   udp: true
