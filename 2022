@@ -13,9 +13,9 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: "eFp1zdxpsnB9RJpsr/bLcg=="
   udp: true
-- name: "JP-v4-V"
+- name: "JP-v6-V"
   type: vless
-  server: 35.79.79.50
+  server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be
   port: 42347
   uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
   tls: false
