@@ -19,5 +19,4 @@ proxies:
   port: 42347
   uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
   tls: false
-  udp: true
   network: tcp
