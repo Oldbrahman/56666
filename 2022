@@ -29,8 +29,8 @@ dns:
     - https://dns.adguard.com/dns-query
     - https://dns.google/dns-query
 proxies:
-  - {name: 🇯🇵 JP-v4, server: 35.79.191.33, port: 52731, type: ss, cipher: 2022-blake3-aes-128-gcm, password: eFp1zdxpsnB9RJpsr/bLcg==, udp: true}
-  - {name: 🇯🇵 JP-v6, server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be, port: 52731, type: ss, cipher: 2022-blake3-aes-128-gcm, password: eFp1zdxpsnB9RJpsr/bLcg==, udp: true}
+  - {name: 🇯🇵 JP-v4, server: 35.79.191.33, port: 52731, type: ss, cipher: 2022-blake3-aes-128-gcm, password: eFp1zdxpsnB9RJpsr/bLcg==, fast_open: true, udp: true}
+  - {name: 🇯🇵 JP-v6, server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be, port: 52731, type: ss, cipher: 2022-blake3-aes-128-gcm, password: eFp1zdxpsnB9RJpsr/bLcg==, fast_open: true, udp: true}
   - {name: 🇯🇵 JP-v4-V, server: 35.79.191.33, port: 65174, type: vless, uuid: 25ae558a-f02f-4172-83ca-f59e88bced98, tls: false, network: tcp}
   - {name: 🇯🇵 JP-v6-V, server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be, port: 65174, type: vless, uuid: 25ae558a-f02f-4172-83ca-f59e88bced98, tls: false, network: tcp}
 proxy-groups:
