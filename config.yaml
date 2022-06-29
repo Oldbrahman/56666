@@ -1,3 +1,4 @@
+proxies:  
   - name: "🇯🇵 JP-v4"
     type: ss
     server: 35.79.191.33
