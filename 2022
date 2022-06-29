@@ -29,10 +29,36 @@ dns:
     - https://dns.adguard.com/dns-query
     - https://dns.google/dns-query
 proxies:
-  - {name: 🇯🇵 JP-v4, server: 35.79.191.33, port: 52731, type: ss, cipher: 2022-blake3-aes-128-gcm, password: eFp1zdxpsnB9RJpsr/bLcg==, tfo: true, udp: true}
-  - {name: 🇯🇵 JP-v6, server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be, port: 52731, type: ss, cipher: 2022-blake3-aes-128-gcm, password: eFp1zdxpsnB9RJpsr/bLcg==, tfo: true, udp: true}
-  - {name: 🇯🇵 JP-v4-V, server: 35.79.191.33, port: 65174, type: vless, uuid: 25ae558a-f02f-4172-83ca-f59e88bced98, tls: false, network: tcp}
-  - {name: 🇯🇵 JP-v6-V, server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be, port: 65174, type: vless, uuid: 25ae558a-f02f-4172-83ca-f59e88bced98, tls: false, network: tcp}
+  - name: "🇯🇵 JP-v4"
+    type: ss
+    server: 35.79.191.33
+    port: 52731
+    cipher: 2022-blake3-aes-128-gcm
+    password: eFp1zdxpsnB9RJpsr/bLcg==
+    tfo: true
+    udp: true
+  - name: "🇯🇵 JP-v6"
+    type: ss
+    server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be
+    port: 52731
+    cipher: 2022-blake3-aes-128-gcm
+    password: eFp1zdxpsnB9RJpsr/bLcg==
+    tfo: true
+    udp: true
+  - name: "🇯🇵 JP-v4-V"
+    server: 35.79.191.33
+    port: 65174
+    type: vless
+    uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
+    tls: false
+    network: tcp
+  - name: "🇯🇵 JP-v6-V"
+    server: 2406:da14:c67:8301:26b8:b8eb:4d98:66be
+    port: 65174
+    type: vless
+    uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Proxies
     type: select
@@ -42,42 +68,42 @@ proxy-groups:
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
 rules:
- - DOMAIN-SUFFIX,1password.com,DIRECT
- - DOMAIN-SUFFIX,vultr.com,DIRECT
- - DOMAIN-SUFFIX,mb3admin.com,DIRECT
- - DOMAIN-SUFFIX,rixcloud.io,DIRECT
- - DOMAIN-SUFFIX,tempestapp.io,DIRECT
- - DOMAIN-SUFFIX,baidu.com,DIRECT
- - DOMAIN-SUFFIX,baidu-int.com,DIRECT
- - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
- - DOMAIN,mtalk.google.com,DIRECT
- - DOMAIN,alt1-mtalk.google.com,DIRECT
- - DOMAIN,alt2-mtalk.google.com,DIRECT
- - DOMAIN,alt3-mtalk.google.com,DIRECT
- - DOMAIN,alt4-mtalk.google.com,DIRECT
- - DOMAIN,alt5-mtalk.google.com,DIRECT
- - DOMAIN,alt6-mtalk.google.com,DIRECT
- - DOMAIN,alt7-mtalk.google.com,DIRECT
- - DOMAIN,alt8-mtalk.google.com,DIRECT
- - DOMAIN,alt9-mtalk.google.com,DIRECT
- - DOMAIN,captive.apple.com,DIRECT
- - DOMAIN,time-ios.apple.com,DIRECT
- - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
- - DOMAIN-SUFFIX,push.apple.com,DIRECT
- - DOMAIN-KEYWORD,github,Proxies
- - DOMAIN-SUFFIX,github.com,Proxies
- - DOMAIN-SUFFIX,github.io,Proxies
- - DOMAIN-SUFFIX,githubapp.com,Proxies
- - DOMAIN-SUFFIX,githubassets.com,Proxies
- - DOMAIN-SUFFIX,githubusercontent.com,Proxies
- - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
- - DOMAIN,ip.skk.moe,Proxies
- - DOMAIN,ip.sb,Proxies
- - DOMAIN-SUFFIX,googleapis.cn,Proxies
- - DOMAIN-SUFFIX,maying.co,Proxies
- - DOMAIN-SUFFIX,flowercloud.net,Proxies
- - DOMAIN-SUFFIX,socloud.me,Proxies
- - DOMAIN-SUFFIX,ytoo.asia,Proxies
- - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
- - GEOIP,CN,DIRECT
- - MATCH,Proxies
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN,ip.skk.moe,Proxies
+  - DOMAIN,ip.sb,Proxies
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
