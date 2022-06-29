@@ -1,4 +1,5 @@
- - name: "🇯🇵 JP-v4"
+proxies:
+  - name: "🇯🇵 JP-v4"
     type: ss
     server: 35.79.191.33
     port: 52731
