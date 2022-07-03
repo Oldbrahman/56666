@@ -35,6 +35,7 @@ proxies:
     port: 52731
     cipher: 2022-blake3-aes-128-gcm
     password: eFp1zdxpsnB9RJpsr/bLcg==
+    tfo: true
     udp: true 
   - name: "🇯🇵 JP-v6"
     type: ss
@@ -42,6 +43,7 @@ proxies:
     port: 52731
     cipher: 2022-blake3-aes-128-gcm
     password: eFp1zdxpsnB9RJpsr/bLcg==
+    tfo: true
     udp: true    
   - name: "🇯🇵 JP-v4-V"
     server: 176.34.48.115
