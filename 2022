@@ -63,34 +63,19 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
       - DIRECT
   - name: 📲 电报吹水
     type: select
     proxies:
       - 🔰 节点选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
       - DIRECT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
       - DIRECT
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
@@ -100,77 +85,32 @@ proxy-groups:
     type: select
     proxies:
       - 🔰 节点选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
-      - DIRECT
-  - name: 🇭🇰 香港节点
-    type: select
-    proxies:
-      - DIRECT
-  - name: 🇨🇳 台湾节点
-    type: select
-    proxies:
-      - DIRECT
-  - name: 🇸🇬 狮城节点
-    type: select
-    proxies:
       - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
-  - name: 🇺🇲 美国节点
-    type: select
-    proxies:
-      - DIRECT
-  - name: 🚀 其他节点
-    type: select
-    proxies:
-      - DIRECT
+      - 🇯🇵 JP-v4-V
+      - 🇯🇵 JP-v6-V
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
       - DIRECT
-  - name: 🌏 BiliBili
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 其他节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
   - name: 🐟 规则外路由选择
     type: select
     proxies:
       - 🔰 节点选择
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 其他节点
 rules:
  - DOMAIN-SUFFIX,local,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
