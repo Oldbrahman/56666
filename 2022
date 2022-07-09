@@ -86,19 +86,15 @@ rules:
   - DOMAIN,alt7-mtalk.google.com,DIRECT
   - DOMAIN,alt8-mtalk.google.com,DIRECT
   - DOMAIN,alt9-mtalk.google.com,DIRECT
-  - DOMAIN-SUFFIX,steam-chat.com,DIRECT
-  - DOMAIN-SUFFIX,steamcommunity.com,DIRECT
-  - DOMAIN-SUFFIX,steampowered.com,DIRECT
-  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com,DIRECT
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,DIRECT
-  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
-  - DOMAIN-SUFFIX,steamgames.com,DIRECT
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com,DIRECT
-  - DOMAIN-SUFFIX,steamstat.us,DIRECT
-  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
-  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com,DIRECT
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,DIRECT
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,time-ios.apple.com,DIRECT
   - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
