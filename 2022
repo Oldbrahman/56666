@@ -95,6 +95,10 @@ rules:
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,DIRECT
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,DIRECT
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,DIRECT
+  - DOMAIN-SUDDIX,cm1-tyo1.cm.steampowered.com,DIRECT
+  - DOMAIN-SUDDIX,cache3-hkh1.steamcontent.com,DIRECT
+  - DOMAIN-SUDDIX,cache2-sgp1.steamcontent.com,DIRECT
+  - DOMAIN-SUDDIX,cache2-tyo2.steamcontent.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,time-ios.apple.com,DIRECT
   - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
