@@ -95,6 +95,8 @@ rules:
   - DOMAIN,cdn-ws.content.steamchina.com,DIRECT
   - DOMAIN,cdn-qc.content.steamchina.com,DIRECT
   - DOMAIN,cdn-ali.content.steamchina.com,DIRECT
+  - DOMAIN,download.epicgames.com,DIRECT
+  - DOMAIN,download2.epicgames.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,time-ios.apple.com,DIRECT
   - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
