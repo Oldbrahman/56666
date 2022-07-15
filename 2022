@@ -95,8 +95,6 @@ rules:
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,DIRECT
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,DIRECT
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,DIRECT
-  - DOMAIN-SUFFIX,ol.epicgames.com,DIRECT
-  - DOMAIN-SUFFIX,epicgames.com,DIRECT
   - DOMAIN-SUFFIX,download.epicgames.com,DIRECT
   - DOMAIN-SUFFIX,download2.epicgames.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
