@@ -86,17 +86,16 @@ rules:
   - DOMAIN,alt7-mtalk.google.com,DIRECT
   - DOMAIN,alt8-mtalk.google.com,DIRECT
   - DOMAIN,alt9-mtalk.google.com,DIRECT
-  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com,DIRECT
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
-  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,DIRECT
-  - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
-  - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com,DIRECT
-  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,DIRECT
-  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,DIRECT
-  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,DIRECT
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
+  - DOMAIN,st.dl.eccdnx.com,DIRECT
+  - DOMAIN,st.dl.bscstorage.net,DIRECT
+  - DOMAIN,st.dl.pinyuncloud.com,DIRECT
+  - DOMAIN,dl.steam.clngaa.com,DIRECT
+  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com,DIRECT
+  - DOMAIN,cdn-ws.content.steamchina.com,DIRECT
+  - DOMAIN,cdn-qc.content.steamchina.com,DIRECT
+  - DOMAIN,cdn-ali.content.steamchina.com,DIRECT
   - DOMAIN-SUFFIX,download.epicgames.com,DIRECT
-  - DOMAIN-SUFFIX,download2.epicgames.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,time-ios.apple.com,DIRECT
   - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
@@ -116,5 +115,6 @@ rules:
   - DOMAIN-SUFFIX,socloud.me,Proxies
   - DOMAIN-SUFFIX,ytoo.asia,Proxies
   - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - DOMAIN-SUFFIX,www.bilibili.com,Proxies
   - GEOIP,CN,DIRECT
   - MATCH,Proxies
