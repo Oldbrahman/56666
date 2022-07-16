@@ -128,8 +128,5 @@ rules:
   - DOMAIN-SUFFIX,biligame.com,Proxies
   - DOMAIN-SUFFIX,biligame.net,Proxies
   - DOMAIN-SUFFIX,bilivideo.com,Proxies
-  - DOMAIN-SUFFIX,hdslb.com,Proxies
-  - DOMAIN-SUFFIX,im9.com,Proxies
-  - DOMAIN-SUFFIX,smtcdns.net,Proxies
   - GEOIP,CN,DIRECT
   - MATCH,Proxies
