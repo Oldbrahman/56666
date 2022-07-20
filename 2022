@@ -58,15 +58,7 @@ proxies:
     type: vless
     uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
     tls: false
-    network: tcp  
-proxy-groups:
-  - name: Proxies
-    type: select
-    proxies:
-      - 🇯🇵 JP-v4
-      - 🇯🇵 JP-v6
-      - 🇯🇵 JP-v4-V
-      - 🇯🇵 JP-v6-V
+    network: tcp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
