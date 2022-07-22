@@ -115,6 +115,15 @@ proxy-groups:
       - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v4-V
+      - 🇯🇵 JP-v6-V
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -142,6 +151,17 @@ proxy-groups:
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
 rules:
+ - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎮 游戏平台
+ - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,dl.steam.clngaa.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,epicgames-download1.akamaized.net,🎮 游戏平台
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
