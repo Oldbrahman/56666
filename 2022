@@ -19,7 +19,6 @@ dns:
   nameserver:
     - 52.80.52.52
     - https://h.iqiq.io:777/dns-query
-    - https://doh.pub/dns-query
   fallback:
     - https://h.iqiq.io:777/dns-query
     - https://doh.opendns.com/dns-query
