@@ -11,23 +11,24 @@ dns:
   ipv6: true
   default-nameserver:
     - 8.8.8.8
-    - 223.5.5.5
+    - 52.80.52.52
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - localhost.ptlogin2.qq.com
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
   nameserver:
+    - 52.80.52.52
     - https://h.iqiq.io:777/dns-query
-    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
   fallback:
     - https://h.iqiq.io:777/dns-query
     - https://doh.opendns.com/dns-query
     - https://dns.adguard.com/dns-query
     - https://dns.google/dns-query
+    - quic://b.iqiq.io:784
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
 proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
