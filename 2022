@@ -31,7 +31,7 @@ dns:
 proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
-    serve: 18.176.176.207
+    serve: 18.176.111.45
     port: 52731
     cipher: aes-128-gcm
     password: csO04neoFM
@@ -44,7 +44,7 @@ proxies:
     password: csO04neoFM
     udp: true
   - name: "🇯🇵 JP-v4-V"
-    server: 18.176.176.207
+    server: 18.176.111.45
     port: 65174
     type: vless
     uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
