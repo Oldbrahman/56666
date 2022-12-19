@@ -35,7 +35,6 @@ proxies:
     port: 52731
     cipher: aes-128-gcm
     password: eFp1zdxpsnB9RJpsr
-    tfo: true
     udp: true 
   - name: "🇯🇵 JP-v6"
     type: ss
@@ -43,7 +42,6 @@ proxies:
     port: 52731
     cipher: aes-128-gcm
     password: eFp1zdxpsnB9RJpsr
-    tfo: true
     udp: true    
   - name: "🇯🇵 JP-v4-V"
     server: 18.176.176.207
