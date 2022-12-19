@@ -63,6 +63,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: ♻️ 自动选择
@@ -70,6 +72,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: 🌍 国外媒体
@@ -78,6 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: 📲 电报信息
@@ -85,6 +91,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: Ⓜ️ 微软服务
@@ -92,6 +100,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: 🍎 苹果服务
@@ -99,6 +109,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: 📢 谷歌FCM
@@ -107,6 +119,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
   - name: 🎯 全球直连
@@ -121,6 +135,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵 JP-v4
+      - 🇯🇵 JP-v6
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
 rules:
