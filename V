@@ -30,14 +30,14 @@ dns:
     geoip-code: CN
 proxies:
   - name: "🇯🇵 JP-v4-V"
-    server: 43.206.13.110
+    server: 18.176.176.207
     port: 65174
     type: vless
     uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
     tls: false
     network: tcp    
   - name: "🇯🇵 JP-v6-V"
-    server: 2406:da14:c67:8300:6c3a:10ec:f7a1:b5a7
+    server: 2406:da14:c67:8301:850e:18b:ef7c:3b54
     port: 65174
     type: vless
     uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
