@@ -18,9 +18,7 @@ dns:
     - localhost.ptlogin2.qq.com
   nameserver:
     - 52.80.52.52
-    - https://h.iqiq.io:777/dns-query
   fallback:
-    - https://h.iqiq.io:777/dns-query
     - https://doh.opendns.com/dns-query
     - https://dns.adguard.com/dns-query
     - https://dns.google/dns-query
