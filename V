@@ -17,8 +17,8 @@ dns:
   fake-ip-filter:
     - localhost.ptlogin2.qq.com
   nameserver:
-    - 52.80.52.52
     - cn-east.ovo.glass:777
+    - 52.80.52.52
   fallback:
     - https://doh.opendns.com/dns-query
     - https://dns.adguard.com/dns-query
