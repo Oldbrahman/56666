@@ -32,14 +32,14 @@ proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
     serve: 18.176.111.45
-    port: 52731
+    port: 57132
     cipher: aes-128-gcm
     password: csO04neoFM
     udp: true 
   - name: "🇯🇵 JP-v6"
     type: ss
     server: 2406:da14:c67:8301:850e:18b:ef7c:3b54
-    port: 52731
+    port: 57132
     cipher: aes-128-gcm
     password: csO04neoFM
     udp: true
