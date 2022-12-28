@@ -11,13 +11,13 @@ dns:
   ipv6: true
   default-nameserver:
     - 8.8.8.8
-    - 52.80.52.52
+    - 119.29.29.29
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - localhost.ptlogin2.qq.com
   nameserver:
-    - https://cn-east.lele233.com/dns-query
+    - 119.29.29.29
     - 52.80.52.52
   fallback:
     - https://doh.opendns.com/dns-query
