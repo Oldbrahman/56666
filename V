@@ -108,7 +108,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇯🇵 JP-v4-V
       - 🇯🇵 JP-v6-V
-rules:
+ rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -348,10 +348,13 @@ rules:
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -633,7 +636,7 @@ rules:
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
  - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
- - DOMAIN-SUFFIX,cccat.io,🚀 节点选择
+ - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -644,6 +647,7 @@ rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
+ - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -1212,6 +1216,7 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
@@ -1470,8 +1475,6 @@ rules:
  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
  - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
- - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
- - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
  - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
