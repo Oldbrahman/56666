@@ -17,8 +17,8 @@ dns:
   fake-ip-filter:
     - localhost.ptlogin2.qq.com
   nameserver:
+    - 119.29.29.29
     - 52.80.52.52
-    - https://h.iqiq.io:777/dns-query
   fallback:
     - https://h.iqiq.io:777/dns-query
     - https://doh.opendns.com/dns-query
