@@ -31,10 +31,10 @@ dns:
 proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
-    serve: 18.176.111.45
-    port: 57132
-    cipher: aes-128-gcm
-    password: csO04neoFM
+    server: 18.176.176.207
+    port: 19277
+    cipher: 2022-blake3-aes-128-gcm
+    password: ZX0OfSZy0Dhza4D8y0Ztn4IFoyGku2zzAk4ZllkfqHsX
     udp: true 
   - name: "🇯🇵 JP-v6"
     type: ss
