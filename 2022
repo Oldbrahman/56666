@@ -19,6 +19,7 @@ dns:
   nameserver:
     - 119.29.29.29
     - 52.80.52.52
+    - 8.8.8.8
   fallback:
     - https://h.iqiq.io:777/dns-query
     - https://doh.opendns.com/dns-query
