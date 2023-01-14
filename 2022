@@ -32,7 +32,7 @@ proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
     server: 18.182.238.190
-    port:42143
+    port: 42143
     cipher: 2022-blake3-aes-128-gcm
     password: 4XtKhUt111NkUQKxNpbqyA==
     udp: true 
