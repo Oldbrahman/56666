@@ -32,7 +32,7 @@ dns:
 proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
-    server: 18.177.76.104
+    server: 54.248.215.106
     port: 65381
     cipher: 2022-blake3-aes-128-gcm
     password: 4XtKhUt111NkUQKxNpbqyA==
@@ -45,7 +45,7 @@ proxies:
     password: 4XtKhUt111NkUQKxNpbqyA==
     udp: true
   - name: "🇯🇵 JP-v4-V"
-    server: 18.177.76.104
+    server: 54.248.215.106
     port: 65174
     type: vless
     uuid: 25ae558a-f02f-4172-83ca-f59e88bced98
