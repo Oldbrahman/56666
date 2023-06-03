@@ -32,7 +32,7 @@ dns:
 proxies:
   - name: "🇯🇵 JP-v4"
     type: ss
-    server: 43.206.72.254
+    server: 52.195.114.205
     port: 52502
     cipher: 2022-blake3-aes-128-gcm
     password: 4XtKhUt111NkUQKxNpbqyA==
