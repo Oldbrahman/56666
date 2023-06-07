@@ -41,7 +41,7 @@ proxies:
     flow: xtls-rprx-vision
     servername: www.microsoft.com
     reality-opts:
-      public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+      public-key: ME5TP2l9tYbgeGRxf05_LEiXYFOyeqn3TMRju79VWVc
       short-id: ,a1,f9e7,bab4ec,9af739cf
     client-fingerprint: chrome
   - name: "🇯🇵 JP-v6"
