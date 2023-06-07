@@ -36,10 +36,10 @@ proxies:
     port: 52438
     uuid: 1a16b458-a943-4c6c-bc0c-4411ccb9fe1d
     network: tcp
-    tls: false
+    tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.microsoft.com:443
+    servername: www.microsoft.com
     reality-opts:
       public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
       short-id: ,a1,f9e7,bab4ec,9af739cf
