@@ -32,7 +32,7 @@ dns:
 proxies:
   - name: "🇯🇵 JP-v4"
     type: vless
-    server: 54.199.94.105
+    server: 3.114.178.203
     port: 52438
     uuid: 1a16b458-a943-4c6c-bc0c-4411ccb9fe1d
     network: tcp
