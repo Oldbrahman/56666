@@ -44,7 +44,7 @@ proxies:
     cipher: 2022-blake3-aes-128-gcm
     password: 4XtKhUt111NkUQKxNpbqyA==
     udp: true
-  - {name: 1|vf9w.love@xray.com,
+  - name: "🇯🇵 JP-v6-V"
     server: 2406:da14:c67:8301:80c5:9184:e670:357,
     port: 52438,
     reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14},
@@ -56,7 +56,7 @@ proxies:
     xudp: true,
     servername: www.microsoft.com,
     flow: xtls-rprx-vision,
-    skip-cert-verify: false, udp: true}
+    skip-cert-verify: false, udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -65,6 +65,7 @@ proxy-groups:
       - DIRECT
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -72,6 +73,7 @@ proxy-groups:
     proxies:
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -80,6 +82,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: 📲 电报信息
     type: select
     proxies:
@@ -87,6 +90,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -94,6 +98,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -101,6 +106,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -109,6 +115,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,6 +130,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
+      - 🇯🇵 JP-v6-V
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
