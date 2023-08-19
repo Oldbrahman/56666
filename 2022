@@ -110,7 +110,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
-      - 🇯🇵 JP-v6-V
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
