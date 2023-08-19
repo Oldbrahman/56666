@@ -44,6 +44,19 @@ proxies:
     cipher: 2022-blake3-aes-128-gcm
     password: 4XtKhUt111NkUQKxNpbqyA==
     udp: true
+  - {name: 1|vf9w.love@xray.com,
+    server: 2406:da14:c67:8301:80c5:9184:e670:357,
+    port: 52438,
+    reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14},
+    client-fingerprint: chrome,
+    type: vless,
+    uuid: 1a16b458-a943-4c6c-bc0c-4411ccb9fe1d,
+    tls: true,
+    tfo: false,
+    xudp: true,
+    servername: www.microsoft.com,
+    flow: xtls-rprx-vision,
+    skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
