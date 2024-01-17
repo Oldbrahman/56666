@@ -111,7 +111,7 @@ proxy-groups:
       - 🇯🇵 JP-v4
       - 🇯🇵 JP-v6
 rules:
- - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
