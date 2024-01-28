@@ -42,7 +42,7 @@ proxies:
     server: 2406:da14:c67:8301:d90d:454f:46c5:7878
     port: 40614
     cipher: aes-128-gcm
-    password: 4XtKhUt111NkUQKxNpbqyA==
+    password: qPn0cIyCZnL3E5Zm0Wrs4BuVCdGnjyNzB8Bn0aT1Gu3r
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
